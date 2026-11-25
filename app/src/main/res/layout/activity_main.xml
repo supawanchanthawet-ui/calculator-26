@@ -5,7 +5,9 @@
     android:background="#123456"
     android:orientation="vertical"
     android:padding="16dp"
-    android:backgroundTint="#99FF00">
+    android:backgroundTint="#99FF00"
+    android:id="@+id/main"
+    >
 
     <!--    หน้าจอแสดงผล-->
 
@@ -48,7 +50,7 @@
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:text="AC"
-                android:backgroundTint="#FFFFCC	"
+                android:backgroundTint="#FFFFCC"
                 android:textSize="30dp"/>
 
 
@@ -73,7 +75,7 @@
                 android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnDiv"
+                android:id="@+id/btnDivide"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -93,7 +95,7 @@
             <!--     แต่ละปุ่ม-->
 
             <Button
-                android:id="@+id/BtnAAC1"
+                android:id="@+id/Btn7"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -103,7 +105,7 @@
                 android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnDel1"
+                android:id="@+id/Btn8"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -113,7 +115,7 @@
                 android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnMod1"
+                android:id="@+id/Btn9"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -123,13 +125,13 @@
                 android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnDiv1"
+                android:id="@+id/btnMul"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:text="*"
-                android:backgroundTint="#FFCC99	"
+                android:backgroundTint="#FFCC99"
                 android:textSize="30dp"/>
 
         </LinearLayout>
@@ -143,7 +145,7 @@
             <!--     แต่ละปุ่ม-->
 
             <Button
-                android:id="@+id/BtnAAC2"
+                android:id="@+id/Btn4"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -153,7 +155,7 @@
                 android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnDel2"
+                android:id="@+id/Btn5"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -163,7 +165,7 @@
                 android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnMod2"
+                android:id="@+id/Btn6"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -173,7 +175,7 @@
                 android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnDiv2"
+                android:id="@+id/btnMinus"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -193,7 +195,7 @@
             <!--     แต่ละปุ่ม-->
 
             <Button
-                android:id="@+id/BtnAAC3"
+                android:id="@+id/Btn1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -203,17 +205,17 @@
                 android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnDel3"
+                android:id="@+id/Btn2"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
                 android:layout_weight="1"
                 android:text="2"
                 android:backgroundTint="#FF9999"
-                android:textSize="30dp">
+                android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnMod3"
+                android:id="@+id/Btn3"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -223,7 +225,7 @@
                 android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnDiv3"
+                android:id="@+id/btnPlus"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
@@ -253,7 +255,7 @@
                 android:textSize="30dp"/>
 
             <Button
-                android:id="@+id/BtnDel4"
+                android:id="@+id/Btn0"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_margin="4dp"
